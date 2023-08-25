@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border: 5px solid rgb(128, 128, 128);
+    padding: 15px;
+    color:white
+}
+
+.empty{
+    color: black;
+}
+
+
+.container>span{
+    text-align: center;
+    color:black;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+
+.productListContainer{
+    list-style-type: none;
+    padding:0px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.productItem{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    background: rgb(180, 180, 180);
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(104, 104, 104);
+    padding: 8px;
+    border-radius: 5px;
+}
